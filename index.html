@@ -1,17 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Portfolio of Tushar Yadav, BSc AI & ML student and aspiring AI Engineer.">
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Tushar Yadav Portfolio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-:root { color-scheme: light; }
-body { margin: 0; }
-[hidden] { display: none !important; }
 /* Layout: a data-sheet. Sticky identity column on the left, records (projects, stack, credentials) on the right. */
 :root {
   --bg: #eef1f6;
@@ -124,6 +117,7 @@ h3 { font-family: var(--display); font-weight: 600; font-size: 22px; line-height
 .list li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
 .list li:last-child { border-bottom: 0; }
 .list .n { font-weight: 500; }
+.list .d { grid-column: 1 / -1; color: var(--muted); max-width: 62ch; }
 .list .m { font-family: var(--mono); font-size: 12px; color: var(--muted); align-self: center; }
 .learning { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; list-style: none; margin: 0; padding: 0; }
 .learning li { padding: 12px 0; border-bottom: 1px solid var(--rule); }
@@ -148,9 +142,6 @@ footer { grid-column: 1 / -1; border-top: 2px solid var(--fg); padding-top: 12px
   .copy, .theme { transition: filter .15s, color .15s, border-color .15s; }
 }
 </style>
-</head>
-<body>
-
 
 <div class="sheet">
   <header class="id">
@@ -202,6 +193,17 @@ footer { grid-column: 1 / -1; border-top: 2px solid var(--fg); padding-top: 12px
         <p>A command-line app for recording and reviewing personal expenses, written in Python with MongoDB as the data store.</p>
         <ul class="chips"><li>Python</li><li>MongoDB</li></ul>
       </article>
+    </section>
+
+    <section aria-labelledby="h-ach">
+      <div class="sec-h"><h2 id="h-ach">Achievements</h2><span class="tag">1 record</span></div>
+      <ul class="list">
+        <li>
+          <span class="n">2nd place, Intercollegiate Entrepreneurship Conclave 2025</span>
+          <span class="m">GNIMS Business School / 2025</span>
+          <span class="d">Competed with my team on an AI/ML-based idea. The judges recognised its potential for real-world impact.</span>
+        </li>
+      </ul>
     </section>
 
     <section aria-labelledby="h-stack">
@@ -272,5 +274,4 @@ footer { grid-column: 1 / -1; border-top: 2px solid var(--fg); padding-top: 12px
 })();
 </script>
 
-</body>
-</html>
+</body></html>
